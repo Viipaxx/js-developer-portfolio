@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    padding: .5rem;
+    margin: .5rem;
+    border: 1px solid #FFF;
+    border-radius: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .main {
+        max-width: 1024px;;
+        margin: 1rem auto;
+    }
+
+}

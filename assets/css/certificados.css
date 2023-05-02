@@ -1,0 +1,40 @@
+
+
+.certificados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.certificados li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.certificados .title{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.certificados .title i {
+    font-size: 20px;
+}
+
+.certificados li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.certificados li a:hover {
+    text-decoration: underline;
+}

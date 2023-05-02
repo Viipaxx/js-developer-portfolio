@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dab0ae2ff9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experiencia.css">
+    <link rel="stylesheet" href="assets/css/certificados.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <title>Portifólio Vitor Paz</title>
+</head>
+<body>
+
+    <div class="main">
+        
+        <header class="header">
+            
+            <img class="photo" id="profile.photo" src="assets/img/WhatsApp Image 2023-04-29 at 13.23.43 (1).jpeg" alt="Foto do Vitor">
+            <i class="fa-solid fa-ellipsis icon-ellipsis"></i>
+            <h1 class="title">Olá, <br>eu sou o <span id="profile.name">Loading...</span></h1>
+            
+            <div class="information">
+                <p> <i class="fa-solid fa-user icon"></i> <span id="profile.job">Loading...</span></p>
+                <p> <i class="fa-solid fa-location-dot icon"></i> <span id="profile.location">Loading...</span></p>
+                <p> <i class="fa-brands fa-whatsapp icon"></i> <span id="profile.phone">Loading...</span></p>
+                <p> <i class="fa-solid fa-envelope icon"></i> <span id="profile.email">Loading@mail.com</span></p>
+            </div>
+            
+        </header>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Idiomas
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="languages">
+                    <li>Loading...</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Portfólio
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                    <li>
+                        <h3>Title</h3>
+                        <a href="https://google.com" target="_blank">www.google.com</a>
+                    </li>
+
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Experiência Profissional
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+
+            <div class="content">
+              <p>Ainda estou vazio :)</p>
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Certificados
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+
+            <div class="content">
+                <ul class="certificados">
+                    <li>
+                        <a href="#" class="title">Certificação em JavaScript pela DIO</a>
+                        duração: 4 horas.
+                    </li>
+                    <li>
+                        <a href="#" class="title">Certificação em JavaScript pela DIO</a>
+                        duração: 4 horas.
+                    </li>
+                    <li>
+                        <a href="#" class="title">Certificação em JavaScript pela DIO</a>
+                        duração: 4 horas.
+                    </li>
+                </ul>   
+            </div>
+
+        </section>
+
+        <section class="acordeon">
+
+            <button class="trigger" type="button">
+                Skills
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <i class="fa-brands fa-java fa-2xl"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-js fa-2xl"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-python fa-2xl"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-angular fa-2xl"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-html5 fa-2xl"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-css3 fa-2xl"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-docker fa-2xl"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-node fa-2xl"></i>
+                            </li>
+                        </ul>
+                    </section>
+                    
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Loading...</li>
+                            <li>Loading...</li>
+                            <li>Loading...</li>
+
+                       </ul>
+                   </section>
+            </div>
+            </div>
+
+        </section>
+
+    </div>
+<script src="assets/js/acordeon.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
